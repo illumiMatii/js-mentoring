@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.MuiInputBase-root input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px #454A8D inset;
+  -webkit-text-fill-color: white;
+}
+
+.MuiOutlinedInput-root {
+  background-color: transparent !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
